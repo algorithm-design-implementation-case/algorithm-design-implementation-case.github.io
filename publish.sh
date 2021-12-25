@@ -35,6 +35,7 @@ cd _site || exit
 git config pull.rebase false
 git pull
 rm -f README.md
+rm -f FREEZE_QRCODE
 git add -A
 git commit -a -m "update"
 git status

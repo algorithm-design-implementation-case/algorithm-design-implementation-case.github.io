@@ -12,8 +12,7 @@ fi
 rm -rf _site
 mkdir -p _site/
 git clone -b gh-pages "$(git config remote.origin.url)" _site
-git config pull.rebase false
-
+git status
 
 jekyll build
 

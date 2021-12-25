@@ -10,6 +10,8 @@ else
     echo "QR code published."
 fi
 
+echo ""
+
 # Clone gh-pages branch into _site/
 echo "Clone gh-pages branch into _site/ ..."
 rm -rf _site
@@ -17,10 +19,14 @@ mkdir -p _site/
 git clone -b gh-pages "$(git config remote.origin.url)" _site
 echo "Clone gh-pages branch into _site/ done."
 
+echo ""
+
 # Jekyll build, default output is _site/
 echo "Jekyll build, default output is _site/ ..."
 jekyll build
 echo "Jekyll build, default output is _site/ done."
+
+echo ""
 
 # Push _site to gh-pages
 echo "Push _site to gh-pages ..."
@@ -35,5 +41,7 @@ git status
 git push
 cd "$wd" || exit
 echo "Push _site to gh-pages done."
+
+echo ""
 
 echo "Publish done."

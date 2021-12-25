@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Create QR codes for cases
+echo "Creating QR codes for cases..."
 if [ "$(cat FREEZE_QRCODE)" == "True" ]; then
     echo "QR code already published."
 else

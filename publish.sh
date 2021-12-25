@@ -23,9 +23,9 @@ wd="$(pwd)"
 cd _site || exit
 git config pull.rebase false
 git pull
-git status
 rm -f README.md
 git add -A
 git commit -a -m "update"
+git status
 git push
 cd "$wd" || exit

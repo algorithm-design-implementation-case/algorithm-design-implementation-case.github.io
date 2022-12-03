@@ -3,7 +3,7 @@
 import csv
 import qrcode
 
-host_name = "case.artificial-intelligence-algorithm.site"
+host_name = "https://smart-data-engineering.github.io/algorithm-design-implementation-case.github.io/"
 qrcode_dir = 'assets/images/qrcode'
 
 

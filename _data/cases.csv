@@ -23,3 +23,22 @@ chapter_id,chapter_name,case_id,case_name,ppt_url
 第17章,问答系统算法,3.4-1,基于RNN的问答系统,/downloads/ppt/ch_17.pdf
 第17章,问答系统算法,3.4-2,基于LSTM的问答系统,/downloads/ppt/ch_17.pdf
 第18章,图分析算法,3.5-1,基于图卷积网络（GCN）的图节点分类算法,/downloads/ppt/ch_18.pdf
+,基于BERT-BiLSTM-Softmax的关系抽取,2024-8.2.2-1,基于BERT-BiLSTM-Softmax的关系抽取,
+,基于RNN的问答系统,2024-6.3.2-1,基于RNN的问答系统,
+,R-GCN知识图谱推理,2024-8.4.2-1,R-GCN知识图谱推理,
+,BERT,2024-6.2.2-1,BERT,
+,基于LSTM的问答系统,2024-6.3.2-2,基于LSTM的问答系统,
+,Word2Vec,2024-6.2.1-2,Word2Vec,
+,VAE（变分自编码器）,2024-4.1.3-1,VAE（变分自编码器）,
+,Mask R-CNN,2024-5.3.2-1,Mask R-CNN,
+,基于BERT-BiLSTM-CRF的命名实体识别,2024-8.2.1-1,基于BERT-BiLSTM-CRF的命名实体识别,
+,Siamese FC,2024-5.4.2-1,Siamese FC,
+,支持向量机,2024-4.2.3-1,支持向量机,
+,基于GCN的链接预测,2024-7.4.2-1,基于GCN的链接预测,
+,基于GCN的节点分类,2024-7.3.2-1,基于GCN的节点分类,
+,TransE知识图谱嵌入,2024-8.3.1-1,TransE知识图谱嵌入,
+,N-gram,2024-6.2.1-1,N-gram
+,基于LSTM的机器翻译,2024-6.5.2-1,基于LSTM的机器翻译,
+,基于GCN的社区发现,2024-7.5.2-1,基于GCN的社区发现,
+,基于BiLSTM-LSTM-Softmax的实体关系联合抽取,2024-8.2.3-1,基于BiLSTM-LSTM-Softmax的实体关系联合抽取,
+,基于BERT的情感分析,2024-6.4.4-1,基于BERT的情感分析,

@@ -4,9 +4,7 @@
     },
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features",
-        "editor.codeActionsOnSave": {
-            "source.fixAll.eslint": false
-        }
+
     },
     "python.formatting.provider": "yapf"
 }

@@ -1,0 +1,63 @@
+---
+layout: default
+title: 《人工智能算法——Python语言版》在线编程平台和案例库
+---
+
+<div class="container">
+
+    <div class="jumbotron" style="background-image: url('/assets/images/page-header-bg.png');height: 514px;">
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <h2 class="text-center">
+            《人工智能算法——Python语言版》
+            <br>
+            <!-- 替换 <sub>章节导航</sub> 为两个导航链接 -->
+            <p class="text-center">
+                <a href="/index.html" class="btn btn-link"><span class="glyphicon glyphicon-home"></span>&nbsp;章节导航</a>
+                |
+                <a href="/case_list.html" class="btn btn-primary"><span class="glyphicon glyphicon-th"></span>&nbsp;案例仓库</a>
+            </p>
+        </h2>
+
+        <p>&nbsp;</p>
+
+        <p class="text-center">
+            <a type="button" class="btn btn-primary" href="/download/">
+                点击下载教学资源
+            </a>
+        </p>
+    </div>
+
+    <div class="row">
+
+        {% for one_case in site.data.cases %}
+
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="thumbnail" style="max-width: 300px;min-height: 520px;">
+                <div class="title">
+                    <h3 class="text-center">{{ one_case.chapter_id }} {{ one_case.chapter_name }}</h3>
+                </div>
+                <a href="/case/{{one_case.case_id}}.html">
+                    <img class="img-responsive" src="/assets/images/qrcode/{{ one_case.case_id }}.png" alt="QR_Code">
+                </a>
+                <p class="text-center"><span class="badge">{{ one_case.case_id }}</span></p>
+                <div class="caption">
+                    <h4 class="text-center"> {{ one_case.case_name }}</h4>
+                    <p>
+                        <a href="https://case.artificial-intelligence-algorithm.site/case/{{one_case.case_id}}.html">
+                            <p class="text-center">
+                                https://case.artificial-intelligence-algorithm.site/case/{{one_case.case_id}}.html</p>
+                        </a>
+                    </p>
+                </div><!-- /caption -->
+            </div><!-- /thumbnail -->
+        </div><!-- /col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
+
+        {% endfor %}
+
+        <footer>
+            {% include footer.html %}
+        </footer>
+
+    </div>
+</div>

@@ -23,7 +23,8 @@ echo ""
 
 # Jekyll build, default output is _site/
 echo "Jekyll build, default output is _site/ ..."
-jekyll build
+# jekyll build
+bundle exec jekyll build
 echo "Jekyll build, default output is _site/ done."
 
 echo ""

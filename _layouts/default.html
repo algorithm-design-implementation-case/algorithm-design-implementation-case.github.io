@@ -21,14 +21,6 @@
 </head>
 
 <body>
-
-    <!-- 页面访问计数显示区域 -->
-    <div class="container">
-        <p class="text-center">
-            本页面已被访问 <span id="visit-count">加载中...</span> 次
-        </p>
-    </div>
-
     <!-- 内容部分 -->
     {{ content }}
 
@@ -43,27 +35,14 @@
         </a>
     </div>
 
-    <!-- 页面访问计数功能实现 -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            // 使用 Jekyll 的 page.url 作为每个页面的唯一计数键
-            const pageUrl = "{{ page.url }}"; // 获取 page.url
-            const counterKey = pageUrl.replace(/\//g, '-').slice(1, 100); // 将 URL 中的 / 替换为 - 并去除第一个字符
-            const domain = "case.artificial-intelligence-algorithm.site"; // 你的域名
-
-            console.log("Fetching visit count for: " + counterKey);
-            fetch(`https://api.countapi.xyz/hit/${domain}/${counterKey}`)
-                .then(response => response.json())
-                .then(data => {
-                    console.log("Visit count response:", data);
-                    document.getElementById('visit-count').innerText = data.value;
-                })
-                .catch(error => {
-                    console.error("Error fetching visit count:", error);
-                    document.getElementById('visit-count').innerText = "无法加载访问计数";
-                });
-        });
-    </script>
+    <div style="text-align: center;">
+        <div style="display: inline-block; width: 300px;">
+            <!-- 引入不蒜子统计 -->
+            <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+        </div>
+    </div>
+    
 
 </body>
 

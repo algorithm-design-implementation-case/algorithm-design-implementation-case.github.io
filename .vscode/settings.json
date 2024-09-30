@@ -1,6 +1,6 @@
 {
     "files.associations": {
-        "*.html": "liquid"
+        "*.html": "html"
     },
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features",

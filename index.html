@@ -1,920 +1,531 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+<head>
     <title>《智能数据工程》在线编程平台和案例库</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
+    <!-- 引入 Bootstrap 的 CSS 文件 -->
     <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- 先引入 jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- 然后引入 Bootstrap 的 JS 文件 -->
     <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  </head>
+</head>
 
-  <body>
+<body>
+    <!-- 内容部分 -->
     <div class="container">
-
-  <div class="jumbotron" style="background-image: url('/assets/images/page-header-bg.png');height: 514px;">
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <h2 class="text-center">
-      《智能数据工程》
-      <br>
-      <sub>在线编程平台和案例库</sub>
-    </h2>
-
-    <p>&nbsp;</p>
-
-    <p class="text-center">
-      <a type="button" class="btn btn-primary" href="/download/">
-        点击下载教学资源
-      </a>
-    </p>
-  </div>
-
-  <div class="row">
-
-    
-
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="thumbnail" style="max-width: 300px;min-height: 520px;">
-          <div class="title">
-            <h3 class="text-center">第2章 信息检索</h3>
-          </div>
-          <a href="/case/2.4.3-2.html">
-            <img class="img-responsive" src="/assets/images/qrcode/2.4.3-2.png" alt="QR_Code">
-          </a>
-          <p class="text-center">
-            <span class="badge">2.4.3-2</span>
-          </p>
-          <div class="caption">
-            <h4 class="text-center">
-              PageRank算法</h4>
-            <p>
-              <a href="/case/2.4.3-2.html">
-                <p class="text-center">
-                  打开案例
-                </p>
-              </a>
+    <div class="jumbotron" style="background-image: url('/assets/images/page-header-bg.png');height: 330px;">
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <h2 class="text-center">
+            《智能数据工程》
+            <br>
+            <!-- 替换 <sub>章节导航</sub> 为两个导航链接 -->
+            <p class="text-center">
+                <a href="/index.html" class="btn btn-primary"><span class="glyphicon glyphicon-home"></span>&nbsp;章节导航</a>
+                |
+                <a href="/case_list.html" class="btn btn-link"><span class="glyphicon glyphicon-th"></span>&nbsp;案例仓库</a>
             </p>
-          </div>
-          <!-- /caption -->
+        </h2>
+
+        <p>&nbsp;</p>
+
+        <p class="text-center">
+            <a type="button" class="btn btn-primary" href="/download/">
+                点击下载教学资源
+            </a>
+        </p>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="list-group">
+                
+                
+                
+
+                
+                <!-- 如果当前章节ID不为空，输出前一个章节 -->
+                
+
+                <!-- 开始新章节 -->
+                
+                
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+                <!-- 如果当前章节ID不为空，输出前一个章节 -->
+                
+                <a href="#case-第1章" class="list-group-item" data-toggle="collapse"
+                    aria-expanded="false">
+                    第1章 关系数据库查询优化
+                </a>
+                <div class="list-group collapse" id="case-第1章">
+                    <a href='/case/1.2.3-1.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>多集合卷积神经网络基数估计算法</a><a href='/case/1.2.3-2.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>基于自回归模型的基数估计算法</a>
+                </div>
+                
+                
+
+                <!-- 开始新章节 -->
+                
+                
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+                <!-- 如果当前章节ID不为空，输出前一个章节 -->
+                
+                <a href="#case-第2章" class="list-group-item" data-toggle="collapse"
+                    aria-expanded="false">
+                    第2章 信息检索
+                </a>
+                <div class="list-group collapse" id="case-第2章">
+                    <a href='/case/2.4.2-1.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>Simhash网页去重方法</a><a href='/case/2.4.3-1.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>PageRank算法</a>
+                </div>
+                
+                
+
+                <!-- 开始新章节 -->
+                
+                
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+                <!-- 如果当前章节ID不为空，输出前一个章节 -->
+                
+                <a href="#case-第3章" class="list-group-item" data-toggle="collapse"
+                    aria-expanded="false">
+                    第3章 数据组织和架构
+                </a>
+                <div class="list-group collapse" id="case-第3章">
+                    <a href='/case/3.4.2-1.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>KD树</a>
+                </div>
+                
+                
+
+                <!-- 开始新章节 -->
+                
+                
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+                <!-- 如果当前章节ID不为空，输出前一个章节 -->
+                
+                <a href="#case-第4章" class="list-group-item" data-toggle="collapse"
+                    aria-expanded="false">
+                    第4章 高维数据挖掘
+                </a>
+                <div class="list-group collapse" id="case-第4章">
+                    <a href='/case/4.2.1-1.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>AE训练算法</a><a href='/case/4.2.2-1.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>VAE训练算法</a><a href='/case/4.3.1-1.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>朴素贝叶斯算法</a><a href='/case/4.3.2-1.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>支持向量机算法</a><a href='/case/4.4.1-1.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>K-均值聚类算法</a><a href='/case/4.4.2-1.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>CLIQUE聚类算法</a><a href='/case/4.4.3-1.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>谱聚类算法</a>
+                </div>
+                
+                
+
+                <!-- 开始新章节 -->
+                
+                
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+                <!-- 如果当前章节ID不为空，输出前一个章节 -->
+                
+                <a href="#case-第5章" class="list-group-item" data-toggle="collapse"
+                    aria-expanded="false">
+                    第5章 视觉数据分析
+                </a>
+                <div class="list-group collapse" id="case-第5章">
+                    <a href='/case/5.2.3-1.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>YOLO算法</a><a href='/case/5.3.2-1.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>MaskR-CNN算法</a><a href='/case/5.4.2-1.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>SiameseFC算法</a>
+                </div>
+                
+                
+
+                <!-- 开始新章节 -->
+                
+                
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+                <!-- 如果当前章节ID不为空，输出前一个章节 -->
+                
+                <a href="#case-第6章" class="list-group-item" data-toggle="collapse"
+                    aria-expanded="false">
+                    第6章 文本数据分析
+                </a>
+                <div class="list-group collapse" id="case-第6章">
+                    <a href='/case/6.2.2-1.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>N-gram算法</a><a href='/case/6.2.2-2.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>Word2Vec算法</a><a href='/case/6.2.3-1.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>BERT算法</a><a href='/case/6.3.3-1.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>基于BERT的情感分析算法</a><a href='/case/6.4.2-1.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>基于LSTM的机器翻译算法</a><a href='/case/6.4.3-1.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>基于BERT的机器翻译算法</a>
+                </div>
+                
+                
+
+                <!-- 开始新章节 -->
+                
+                
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+                <!-- 如果当前章节ID不为空，输出前一个章节 -->
+                
+                <a href="#case-第7章" class="list-group-item" data-toggle="collapse"
+                    aria-expanded="false">
+                    第7章 图数据分析
+                </a>
+                <div class="list-group collapse" id="case-第7章">
+                    <a href='/case/7.3.2-1.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>基于GCN的节点分类算法</a><a href='/case/7.4.2-1.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>基于GCN的链接预测算法</a><a href='/case/7.5.2-1.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>基于GCN的社区发现算法</a>
+                </div>
+                
+                
+
+                <!-- 开始新章节 -->
+                
+                
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+                <!-- 如果当前章节ID不为空，输出前一个章节 -->
+                
+                <a href="#case-第8章" class="list-group-item" data-toggle="collapse"
+                    aria-expanded="false">
+                    第8章 知识图谱
+                </a>
+                <div class="list-group collapse" id="case-第8章">
+                    <a href='/case/8.2.1-1.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>基于BERT-BiLSTM-CRF的命名实体识别算法</a><a href='/case/8.2.2-1.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>基于BERT-BiLSTM-Softmax的关系抽取算法</a><a href='/case/8.2.3-1.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>基于BiLSTM-LSTM-Softmax的实体关系联合抽取算法</a><a href='/case/8.3.1-1.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>TransE知识图谱嵌入算法</a><a href='/case/8.3.2-1.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>RESCAL知识图谱嵌入算法</a><a href='/case/8.4.1-1.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>AMIE知识图谱推理算法</a><a href='/case/8.4.2-1.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>NTN知识图谱推理算法</a><a href='/case/8.4.2-2.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>R-GCN知识图谱推理算法</a>
+                </div>
+                
+                
+
+                <!-- 开始新章节 -->
+                
+                
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                
+
+                <!-- 添加案例到 case_list，前面加上符号 -->
+                
+
+                
+
+                <!-- 处理最后一个章节 -->
+                
+                <a href="#case-第9章" class="list-group-item" data-toggle="collapse"
+                    aria-expanded="false">
+                    第9章 贝叶斯网
+                </a>
+                <div class="list-group collapse" id="case-第9章">
+                    <a href='/case/9.2.2-1.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>贝叶斯网结构学习算法</a><a href='/case/9.3.1-1.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>贝叶斯网精确推理算法</a><a href='/case/9.3.2-1.html'
+                    class='list-group-item'><span class='case-symbol'>&#8594; </span>贝叶斯网近似推理算法</a>
+                </div>
+                
+            </div>
         </div>
-        <!-- /thumbnail -->
-      </div>
-      <!-- /col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
+    </div>
 
-    
+    <!-- 添加样式来调整符号和缩进 -->
+    <style>
+        .case-symbol {
+            margin-right: 10px;
+            color: #555;
+            /* 可根据需要调整符号颜色 */
+        }
+    </style>
 
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="thumbnail" style="max-width: 300px;min-height: 520px;">
-          <div class="title">
-            <h3 class="text-center">第4章 高维数据挖掘</h3>
-          </div>
-          <a href="/case/4.1.2-1.html">
-            <img class="img-responsive" src="/assets/images/qrcode/4.1.2-1.png" alt="QR_Code">
-          </a>
-          <p class="text-center">
-            <span class="badge">4.1.2-1</span>
-          </p>
-          <div class="caption">
-            <h4 class="text-center">
-              自编码器</h4>
-            <p>
-              <a href="/case/4.1.2-1.html">
-                <p class="text-center">
-                  打开案例
-                </p>
-              </a>
-            </p>
-          </div>
-          <!-- /caption -->
-        </div>
-        <!-- /thumbnail -->
-      </div>
-      <!-- /col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
-
-    
-
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="thumbnail" style="max-width: 300px;min-height: 520px;">
-          <div class="title">
-            <h3 class="text-center">第4章 高维数据挖掘</h3>
-          </div>
-          <a href="/case/4.1.3-1.html">
-            <img class="img-responsive" src="/assets/images/qrcode/4.1.3-1.png" alt="QR_Code">
-          </a>
-          <p class="text-center">
-            <span class="badge">4.1.3-1</span>
-          </p>
-          <div class="caption">
-            <h4 class="text-center">
-              变分自编码器</h4>
-            <p>
-              <a href="/case/4.1.3-1.html">
-                <p class="text-center">
-                  打开案例
-                </p>
-              </a>
-            </p>
-          </div>
-          <!-- /caption -->
-        </div>
-        <!-- /thumbnail -->
-      </div>
-      <!-- /col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
-
-    
-
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="thumbnail" style="max-width: 300px;min-height: 520px;">
-          <div class="title">
-            <h3 class="text-center">第4章 高维数据挖掘</h3>
-          </div>
-          <a href="/case/4.1.4-1.html">
-            <img class="img-responsive" src="/assets/images/qrcode/4.1.4-1.png" alt="QR_Code">
-          </a>
-          <p class="text-center">
-            <span class="badge">4.1.4-1</span>
-          </p>
-          <div class="caption">
-            <h4 class="text-center">
-              生成对抗网络</h4>
-            <p>
-              <a href="/case/4.1.4-1.html">
-                <p class="text-center">
-                  打开案例
-                </p>
-              </a>
-            </p>
-          </div>
-          <!-- /caption -->
-        </div>
-        <!-- /thumbnail -->
-      </div>
-      <!-- /col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
-
-    
-
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="thumbnail" style="max-width: 300px;min-height: 520px;">
-          <div class="title">
-            <h3 class="text-center">第4章 高维数据挖掘</h3>
-          </div>
-          <a href="/case/4.2.2-1.html">
-            <img class="img-responsive" src="/assets/images/qrcode/4.2.2-1.png" alt="QR_Code">
-          </a>
-          <p class="text-center">
-            <span class="badge">4.2.2-1</span>
-          </p>
-          <div class="caption">
-            <h4 class="text-center">
-              决策树</h4>
-            <p>
-              <a href="/case/4.2.2-1.html">
-                <p class="text-center">
-                  打开案例
-                </p>
-              </a>
-            </p>
-          </div>
-          <!-- /caption -->
-        </div>
-        <!-- /thumbnail -->
-      </div>
-      <!-- /col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
-
-    
-
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="thumbnail" style="max-width: 300px;min-height: 520px;">
-          <div class="title">
-            <h3 class="text-center">第4章 高维数据挖掘</h3>
-          </div>
-          <a href="/case/4.2.3-1.html">
-            <img class="img-responsive" src="/assets/images/qrcode/4.2.3-1.png" alt="QR_Code">
-          </a>
-          <p class="text-center">
-            <span class="badge">4.2.3-1</span>
-          </p>
-          <div class="caption">
-            <h4 class="text-center">
-              支持向量机</h4>
-            <p>
-              <a href="/case/4.2.3-1.html">
-                <p class="text-center">
-                  打开案例
-                </p>
-              </a>
-            </p>
-          </div>
-          <!-- /caption -->
-        </div>
-        <!-- /thumbnail -->
-      </div>
-      <!-- /col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
-
-    
-
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="thumbnail" style="max-width: 300px;min-height: 520px;">
-          <div class="title">
-            <h3 class="text-center">第4章 高维数据挖掘</h3>
-          </div>
-          <a href="/case/4.2.4-1.html">
-            <img class="img-responsive" src="/assets/images/qrcode/4.2.4-1.png" alt="QR_Code">
-          </a>
-          <p class="text-center">
-            <span class="badge">4.2.4-1</span>
-          </p>
-          <div class="caption">
-            <h4 class="text-center">
-              朴素贝叶斯</h4>
-            <p>
-              <a href="/case/4.2.4-1.html">
-                <p class="text-center">
-                  打开案例
-                </p>
-              </a>
-            </p>
-          </div>
-          <!-- /caption -->
-        </div>
-        <!-- /thumbnail -->
-      </div>
-      <!-- /col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
-
-    
-
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="thumbnail" style="max-width: 300px;min-height: 520px;">
-          <div class="title">
-            <h3 class="text-center">第4章 高维数据挖掘</h3>
-          </div>
-          <a href="/case/4.3.2-1.html">
-            <img class="img-responsive" src="/assets/images/qrcode/4.3.2-1.png" alt="QR_Code">
-          </a>
-          <p class="text-center">
-            <span class="badge">4.3.2-1</span>
-          </p>
-          <div class="caption">
-            <h4 class="text-center">
-              k-均值聚类</h4>
-            <p>
-              <a href="/case/4.3.2-1.html">
-                <p class="text-center">
-                  打开案例
-                </p>
-              </a>
-            </p>
-          </div>
-          <!-- /caption -->
-        </div>
-        <!-- /thumbnail -->
-      </div>
-      <!-- /col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
-
-    
-
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="thumbnail" style="max-width: 300px;min-height: 520px;">
-          <div class="title">
-            <h3 class="text-center">第5章 视觉数据分析</h3>
-          </div>
-          <a href="/case/5.2.3-1.html">
-            <img class="img-responsive" src="/assets/images/qrcode/5.2.3-1.png" alt="QR_Code">
-          </a>
-          <p class="text-center">
-            <span class="badge">5.2.3-1</span>
-          </p>
-          <div class="caption">
-            <h4 class="text-center">
-              YOLO</h4>
-            <p>
-              <a href="/case/5.2.3-1.html">
-                <p class="text-center">
-                  打开案例
-                </p>
-              </a>
-            </p>
-          </div>
-          <!-- /caption -->
-        </div>
-        <!-- /thumbnail -->
-      </div>
-      <!-- /col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
-
-    
-
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="thumbnail" style="max-width: 300px;min-height: 520px;">
-          <div class="title">
-            <h3 class="text-center">第5章 视觉数据分析</h3>
-          </div>
-          <a href="/case/5.3.2-1.html">
-            <img class="img-responsive" src="/assets/images/qrcode/5.3.2-1.png" alt="QR_Code">
-          </a>
-          <p class="text-center">
-            <span class="badge">5.3.2-1</span>
-          </p>
-          <div class="caption">
-            <h4 class="text-center">
-              Mask R-CNN</h4>
-            <p>
-              <a href="/case/5.3.2-1.html">
-                <p class="text-center">
-                  打开案例
-                </p>
-              </a>
-            </p>
-          </div>
-          <!-- /caption -->
-        </div>
-        <!-- /thumbnail -->
-      </div>
-      <!-- /col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
-
-    
-
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="thumbnail" style="max-width: 300px;min-height: 520px;">
-          <div class="title">
-            <h3 class="text-center">第5章 视觉数据分析</h3>
-          </div>
-          <a href="/case/5.4.2-1.html">
-            <img class="img-responsive" src="/assets/images/qrcode/5.4.2-1.png" alt="QR_Code">
-          </a>
-          <p class="text-center">
-            <span class="badge">5.4.2-1</span>
-          </p>
-          <div class="caption">
-            <h4 class="text-center">
-              Siamese FC</h4>
-            <p>
-              <a href="/case/5.4.2-1.html">
-                <p class="text-center">
-                  打开案例
-                </p>
-              </a>
-            </p>
-          </div>
-          <!-- /caption -->
-        </div>
-        <!-- /thumbnail -->
-      </div>
-      <!-- /col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
-
-    
-
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="thumbnail" style="max-width: 300px;min-height: 520px;">
-          <div class="title">
-            <h3 class="text-center">第6章 文本数据分析</h3>
-          </div>
-          <a href="/case/6.2.1-1.html">
-            <img class="img-responsive" src="/assets/images/qrcode/6.2.1-1.png" alt="QR_Code">
-          </a>
-          <p class="text-center">
-            <span class="badge">6.2.1-1</span>
-          </p>
-          <div class="caption">
-            <h4 class="text-center">
-              N-gram</h4>
-            <p>
-              <a href="/case/6.2.1-1.html">
-                <p class="text-center">
-                  打开案例
-                </p>
-              </a>
-            </p>
-          </div>
-          <!-- /caption -->
-        </div>
-        <!-- /thumbnail -->
-      </div>
-      <!-- /col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
-
-    
-
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="thumbnail" style="max-width: 300px;min-height: 520px;">
-          <div class="title">
-            <h3 class="text-center">第6章 文本数据分析</h3>
-          </div>
-          <a href="/case/6.2.1-2.html">
-            <img class="img-responsive" src="/assets/images/qrcode/6.2.1-2.png" alt="QR_Code">
-          </a>
-          <p class="text-center">
-            <span class="badge">6.2.1-2</span>
-          </p>
-          <div class="caption">
-            <h4 class="text-center">
-              Word2Vec</h4>
-            <p>
-              <a href="/case/6.2.1-2.html">
-                <p class="text-center">
-                  打开案例
-                </p>
-              </a>
-            </p>
-          </div>
-          <!-- /caption -->
-        </div>
-        <!-- /thumbnail -->
-      </div>
-      <!-- /col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
-
-    
-
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="thumbnail" style="max-width: 300px;min-height: 520px;">
-          <div class="title">
-            <h3 class="text-center">第6章 文本数据分析</h3>
-          </div>
-          <a href="/case/6.2.2-1.html">
-            <img class="img-responsive" src="/assets/images/qrcode/6.2.2-1.png" alt="QR_Code">
-          </a>
-          <p class="text-center">
-            <span class="badge">6.2.2-1</span>
-          </p>
-          <div class="caption">
-            <h4 class="text-center">
-              BERT</h4>
-            <p>
-              <a href="/case/6.2.2-1.html">
-                <p class="text-center">
-                  打开案例
-                </p>
-              </a>
-            </p>
-          </div>
-          <!-- /caption -->
-        </div>
-        <!-- /thumbnail -->
-      </div>
-      <!-- /col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
-
-    
-
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="thumbnail" style="max-width: 300px;min-height: 520px;">
-          <div class="title">
-            <h3 class="text-center">第6章 文本数据分析</h3>
-          </div>
-          <a href="/case/6.3.2-1.html">
-            <img class="img-responsive" src="/assets/images/qrcode/6.3.2-1.png" alt="QR_Code">
-          </a>
-          <p class="text-center">
-            <span class="badge">6.3.2-1</span>
-          </p>
-          <div class="caption">
-            <h4 class="text-center">
-              基于RNN的问答系统</h4>
-            <p>
-              <a href="/case/6.3.2-1.html">
-                <p class="text-center">
-                  打开案例
-                </p>
-              </a>
-            </p>
-          </div>
-          <!-- /caption -->
-        </div>
-        <!-- /thumbnail -->
-      </div>
-      <!-- /col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
-
-    
-
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="thumbnail" style="max-width: 300px;min-height: 520px;">
-          <div class="title">
-            <h3 class="text-center">第6章 文本数据分析</h3>
-          </div>
-          <a href="/case/6.3.2-2.html">
-            <img class="img-responsive" src="/assets/images/qrcode/6.3.2-2.png" alt="QR_Code">
-          </a>
-          <p class="text-center">
-            <span class="badge">6.3.2-2</span>
-          </p>
-          <div class="caption">
-            <h4 class="text-center">
-              基于LSTM的问答系统</h4>
-            <p>
-              <a href="/case/6.3.2-2.html">
-                <p class="text-center">
-                  打开案例
-                </p>
-              </a>
-            </p>
-          </div>
-          <!-- /caption -->
-        </div>
-        <!-- /thumbnail -->
-      </div>
-      <!-- /col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
-
-    
-
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="thumbnail" style="max-width: 300px;min-height: 520px;">
-          <div class="title">
-            <h3 class="text-center">第6章 文本数据分析</h3>
-          </div>
-          <a href="/case/6.4.4-1.html">
-            <img class="img-responsive" src="/assets/images/qrcode/6.4.4-1.png" alt="QR_Code">
-          </a>
-          <p class="text-center">
-            <span class="badge">6.4.4-1</span>
-          </p>
-          <div class="caption">
-            <h4 class="text-center">
-              基于BERT的情感分析</h4>
-            <p>
-              <a href="/case/6.4.4-1.html">
-                <p class="text-center">
-                  打开案例
-                </p>
-              </a>
-            </p>
-          </div>
-          <!-- /caption -->
-        </div>
-        <!-- /thumbnail -->
-      </div>
-      <!-- /col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
-
-    
-
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="thumbnail" style="max-width: 300px;min-height: 520px;">
-          <div class="title">
-            <h3 class="text-center">第6章 文本数据分析</h3>
-          </div>
-          <a href="/case/6.5.2-1.html">
-            <img class="img-responsive" src="/assets/images/qrcode/6.5.2-1.png" alt="QR_Code">
-          </a>
-          <p class="text-center">
-            <span class="badge">6.5.2-1</span>
-          </p>
-          <div class="caption">
-            <h4 class="text-center">
-              基于LSTM的机器翻译</h4>
-            <p>
-              <a href="/case/6.5.2-1.html">
-                <p class="text-center">
-                  打开案例
-                </p>
-              </a>
-            </p>
-          </div>
-          <!-- /caption -->
-        </div>
-        <!-- /thumbnail -->
-      </div>
-      <!-- /col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
-
-    
-
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="thumbnail" style="max-width: 300px;min-height: 520px;">
-          <div class="title">
-            <h3 class="text-center">第7章 图数据分析</h3>
-          </div>
-          <a href="/case/7.3.2-1.html">
-            <img class="img-responsive" src="/assets/images/qrcode/7.3.2-1.png" alt="QR_Code">
-          </a>
-          <p class="text-center">
-            <span class="badge">7.3.2-1</span>
-          </p>
-          <div class="caption">
-            <h4 class="text-center">
-              基于GCN的节点分类</h4>
-            <p>
-              <a href="/case/7.3.2-1.html">
-                <p class="text-center">
-                  打开案例
-                </p>
-              </a>
-            </p>
-          </div>
-          <!-- /caption -->
-        </div>
-        <!-- /thumbnail -->
-      </div>
-      <!-- /col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
-
-    
-
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="thumbnail" style="max-width: 300px;min-height: 520px;">
-          <div class="title">
-            <h3 class="text-center">第7章 图数据分析</h3>
-          </div>
-          <a href="/case/7.4.2-1.html">
-            <img class="img-responsive" src="/assets/images/qrcode/7.4.2-1.png" alt="QR_Code">
-          </a>
-          <p class="text-center">
-            <span class="badge">7.4.2-1</span>
-          </p>
-          <div class="caption">
-            <h4 class="text-center">
-              基于GCN的链接预测</h4>
-            <p>
-              <a href="/case/7.4.2-1.html">
-                <p class="text-center">
-                  打开案例
-                </p>
-              </a>
-            </p>
-          </div>
-          <!-- /caption -->
-        </div>
-        <!-- /thumbnail -->
-      </div>
-      <!-- /col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
-
-    
-
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="thumbnail" style="max-width: 300px;min-height: 520px;">
-          <div class="title">
-            <h3 class="text-center">第7章 图数据分析</h3>
-          </div>
-          <a href="/case/7.5.2-1.html">
-            <img class="img-responsive" src="/assets/images/qrcode/7.5.2-1.png" alt="QR_Code">
-          </a>
-          <p class="text-center">
-            <span class="badge">7.5.2-1</span>
-          </p>
-          <div class="caption">
-            <h4 class="text-center">
-              基于GCN的社区发现</h4>
-            <p>
-              <a href="/case/7.5.2-1.html">
-                <p class="text-center">
-                  打开案例
-                </p>
-              </a>
-            </p>
-          </div>
-          <!-- /caption -->
-        </div>
-        <!-- /thumbnail -->
-      </div>
-      <!-- /col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
-
-    
-
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="thumbnail" style="max-width: 300px;min-height: 520px;">
-          <div class="title">
-            <h3 class="text-center">第8章 知识图谱</h3>
-          </div>
-          <a href="/case/8.2.1-1.html">
-            <img class="img-responsive" src="/assets/images/qrcode/8.2.1-1.png" alt="QR_Code">
-          </a>
-          <p class="text-center">
-            <span class="badge">8.2.1-1</span>
-          </p>
-          <div class="caption">
-            <h4 class="text-center">
-              基于BERT-BiLSTM-CRF的命名实体识别</h4>
-            <p>
-              <a href="/case/8.2.1-1.html">
-                <p class="text-center">
-                  打开案例
-                </p>
-              </a>
-            </p>
-          </div>
-          <!-- /caption -->
-        </div>
-        <!-- /thumbnail -->
-      </div>
-      <!-- /col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
-
-    
-
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="thumbnail" style="max-width: 300px;min-height: 520px;">
-          <div class="title">
-            <h3 class="text-center">第8章 知识图谱</h3>
-          </div>
-          <a href="/case/8.2.2-1.html">
-            <img class="img-responsive" src="/assets/images/qrcode/8.2.2-1.png" alt="QR_Code">
-          </a>
-          <p class="text-center">
-            <span class="badge">8.2.2-1</span>
-          </p>
-          <div class="caption">
-            <h4 class="text-center">
-              基于BERT-BiLSTM-Softmax的关系抽取</h4>
-            <p>
-              <a href="/case/8.2.2-1.html">
-                <p class="text-center">
-                  打开案例
-                </p>
-              </a>
-            </p>
-          </div>
-          <!-- /caption -->
-        </div>
-        <!-- /thumbnail -->
-      </div>
-      <!-- /col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
-
-    
-
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="thumbnail" style="max-width: 300px;min-height: 520px;">
-          <div class="title">
-            <h3 class="text-center">第8章 知识图谱</h3>
-          </div>
-          <a href="/case/8.2.3-1.html">
-            <img class="img-responsive" src="/assets/images/qrcode/8.2.3-1.png" alt="QR_Code">
-          </a>
-          <p class="text-center">
-            <span class="badge">8.2.3-1</span>
-          </p>
-          <div class="caption">
-            <h4 class="text-center">
-              基于BiLSTM-LSTM-Softmax的实体关系联合抽取</h4>
-            <p>
-              <a href="/case/8.2.3-1.html">
-                <p class="text-center">
-                  打开案例
-                </p>
-              </a>
-            </p>
-          </div>
-          <!-- /caption -->
-        </div>
-        <!-- /thumbnail -->
-      </div>
-      <!-- /col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
-
-    
-
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="thumbnail" style="max-width: 300px;min-height: 520px;">
-          <div class="title">
-            <h3 class="text-center">第8章 知识图谱</h3>
-          </div>
-          <a href="/case/8.3.1-1.html">
-            <img class="img-responsive" src="/assets/images/qrcode/8.3.1-1.png" alt="QR_Code">
-          </a>
-          <p class="text-center">
-            <span class="badge">8.3.1-1</span>
-          </p>
-          <div class="caption">
-            <h4 class="text-center">
-              TransE知识图谱嵌入</h4>
-            <p>
-              <a href="/case/8.3.1-1.html">
-                <p class="text-center">
-                  打开案例
-                </p>
-              </a>
-            </p>
-          </div>
-          <!-- /caption -->
-        </div>
-        <!-- /thumbnail -->
-      </div>
-      <!-- /col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
-
-    
-
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="thumbnail" style="max-width: 300px;min-height: 520px;">
-          <div class="title">
-            <h3 class="text-center">第8章 知识图谱</h3>
-          </div>
-          <a href="/case/8.4.2-1.html">
-            <img class="img-responsive" src="/assets/images/qrcode/8.4.2-1.png" alt="QR_Code">
-          </a>
-          <p class="text-center">
-            <span class="badge">8.4.2-1</span>
-          </p>
-          <div class="caption">
-            <h4 class="text-center">
-              R-GCN知识图谱推理</h4>
-            <p>
-              <a href="/case/8.4.2-1.html">
-                <p class="text-center">
-                  打开案例
-                </p>
-              </a>
-            </p>
-          </div>
-          <!-- /caption -->
-        </div>
-        <!-- /thumbnail -->
-      </div>
-      <!-- /col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
-
-    
-
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="thumbnail" style="max-width: 300px;min-height: 520px;">
-          <div class="title">
-            <h3 class="text-center">第9章 贝叶斯网</h3>
-          </div>
-          <a href="/case/9.2.2-1.html">
-            <img class="img-responsive" src="/assets/images/qrcode/9.2.2-1.png" alt="QR_Code">
-          </a>
-          <p class="text-center">
-            <span class="badge">9.2.2-1</span>
-          </p>
-          <div class="caption">
-            <h4 class="text-center">
-              贝叶斯网结构学习</h4>
-            <p>
-              <a href="/case/9.2.2-1.html">
-                <p class="text-center">
-                  打开案例
-                </p>
-              </a>
-            </p>
-          </div>
-          <!-- /caption -->
-        </div>
-        <!-- /thumbnail -->
-      </div>
-      <!-- /col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
-
-    
-
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="thumbnail" style="max-width: 300px;min-height: 520px;">
-          <div class="title">
-            <h3 class="text-center">第9章 贝叶斯网</h3>
-          </div>
-          <a href="/case/9.3.1-1.html">
-            <img class="img-responsive" src="/assets/images/qrcode/9.3.1-1.png" alt="QR_Code">
-          </a>
-          <p class="text-center">
-            <span class="badge">9.3.1-1</span>
-          </p>
-          <div class="caption">
-            <h4 class="text-center">
-              贝叶斯网精确推理</h4>
-            <p>
-              <a href="/case/9.3.1-1.html">
-                <p class="text-center">
-                  打开案例
-                </p>
-              </a>
-            </p>
-          </div>
-          <!-- /caption -->
-        </div>
-        <!-- /thumbnail -->
-      </div>
-      <!-- /col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
-
-    
-
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="thumbnail" style="max-width: 300px;min-height: 520px;">
-          <div class="title">
-            <h3 class="text-center">第9章 贝叶斯网</h3>
-          </div>
-          <a href="/case/9.3.2-1.html">
-            <img class="img-responsive" src="/assets/images/qrcode/9.3.2-1.png" alt="QR_Code">
-          </a>
-          <p class="text-center">
-            <span class="badge">9.3.2-1</span>
-          </p>
-          <div class="caption">
-            <h4 class="text-center">
-              贝叶斯网近似推理</h4>
-            <p>
-              <a href="/case/9.3.2-1.html">
-                <p class="text-center">
-                  打开案例
-                </p>
-              </a>
-            </p>
-          </div>
-          <!-- /caption -->
-        </div>
-        <!-- /thumbnail -->
-      </div>
-      <!-- /col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
-
-    
-
-    <footer></footer>
-
-  </div>
 </div>
+
+
+    <p>&nbsp;</p>
+
+    <!-- Footer -->
+    <div style="text-align: center;">
+        <div style="display: inline-block; width: 300px;">
+            <address>
+    作者：岳昆<br>
+</address>
+        </div>
+    </div>
 
     <!-- 公安备案 -->
     <div style="width:300px;margin:0 auto; padding:20px 0;">
-      <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=53010202001554" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"></a>
+        <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=53010202001554"
+            style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+            <img src="/assets/images/beian_icon.png" style="float:left;" />
+            <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">
+                滇公网安备 53010202001554号
+            </p>
+        </a>
     </div>
-  </body>
+
+    <!-- 显示全站和当前页面的访问量 -->
+    <div style="text-align: center;">
+        <div style="display: inline-block; width: 300px;">
+            <!-- 引入不蒜子统计 -->
+            <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+            <!-- 全站访问量 -->
+            <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+            <br>
+
+        </div>
+    </div>
+
+</body>
 
 </html>
